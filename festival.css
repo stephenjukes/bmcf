@@ -1,14 +1,24 @@
 body {
+    box-sizing: border-box;
     width: 100%;
     max-width: 800px;
     margin: auto;
+    padding: 1rem;
     font-family: Arial;
-    line-height: 25px;
+    line-height: 1.5rem;    
+}
+
+h1 {
+    line-height: 2.5rem;
 }
 
 a {
     font-weight: bold;
     text-decoration: none;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
 }
 
 ol > li {
@@ -28,8 +38,3 @@ li span {
     font-weight: bold;
 }
 
-/*
-li :not(li) {
-    display: inline-block;
-    margin-right: 20px;
-} */
